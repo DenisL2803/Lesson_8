@@ -1,0 +1,118 @@
+/* 
+.link:hover{
+color: green;
+}
+
+.block{
+	background-color: #7a9568;
+	color: #fff;
+	padding: 15px;
+}
+.block__item{
+	opacity: 0;
+	visibility: hidden;
+}
+.block__item:hover{
+	visibility: visible;
+	opacity: 1;
+} 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap'); 
+
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.page__title {
+	font-weight: 900;
+	font-size: 46px;
+	margin-bottom: 35px;
+	color: #1E212C;
+}
+.page__main-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.page__text {
+	line-height: 150%;
+	color: #1E212C;
+	
+	
+}
+
+.page__text h2{
+	margin-bottom: 32px;
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+}
+
+.page__text ul{
+	margin-bottom: 24px;
+}
+
+.page__text li{
+	margin-bottom: 4px;
+	padding-left: 32px;
+
+	background: url(../img/Vector.jpg) 0 6px no-repeat;
+}
+
+.text h3{
+	line-height: 150%;
+	color: #1E212C;	
+}
+
+.text h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	
+}
+
+.text p{
+	margin-bottom: 16px;
+	color: #787A80;
+}
+.rate {
+	padding-left: 24px;
+	color: #424551	
+}
+
+.rate {
+	background: url(../img/Star.jpg) 0 4px no-repeat;
+}
+
+.courses {
+	padding-left: 24px;
+	
+	background: url(../img/Vector1.jpg) 0 4px no-repeat;
+}
+
+.students {
+	padding-left: 24px;
+	margin-bottom: 32px;
+
+	background: url(../img/Vector2.jpg) 0 4px no-repeat;
+}
+
+.cource-text{
+	line-height: 160%;
+}
+
+
+
+
+
+
